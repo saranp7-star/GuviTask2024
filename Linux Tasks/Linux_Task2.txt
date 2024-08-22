@@ -1,0 +1,41 @@
+oot@DESKTOP-NA3GBAV:/home/santhiya# mkdir shellscript
+root@DESKTOP-NA3GBAV:/home/santhiya# chmod 777 shellscript
+root@DESKTOP-NA3GBAV:/home/santhiya# cd shellscript
+root@DESKTOP-NA3GBAV:/home/santhiya/shellscript# vi shellscript1.sh
+root@DESKTOP-NA3GBAV:/home/santhiya/shellscript# ./shellscript1.sh
+bash: ./shellscript1.sh: Permission denied
+root@DESKTOP-NA3GBAV:/home/santhiya/shellscript# chmod 755 shellscript1.sh
+root@DESKTOP-NA3GBAV:/home/santhiya/shellscript# ./shellscript1.sh
+Created file1.txt
+Created file2.txt
+Created file3.txt
+Created file4.txt
+Created file5.txt
+Created file6.txt
+Created file7.txt
+Created file8.txt
+Created file9.txt
+Created file10.txt
+Created file11.txt
+Created file12.txt
+Created file13.txt
+Created file14.txt
+Created file15.txt
+Created file16.txt
+Created file17.txt
+Created file18.txt
+Created file19.txt
+Created file20.txt
+Renamed file1.txt to file1.yml
+Renamed file2.txt to file2.yml
+Renamed file3.txt to file3.yml
+Renamed file4.txt to file4.yml
+Renamed file5.txt to file5.yml
+
+Top 5 latest created files:
+84
+file16.txt
+file17.txt
+file18.txt
+file19.txt
+root@DESKTOP-NA3GBAV:/home/santhiya/shellscript#
